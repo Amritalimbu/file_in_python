@@ -1,0 +1,4 @@
+f=open("people1-exercise.txt","w")
+b=f.write("rishabh-meerut\nimtiyaz-delhi\nnilima-cochin\nrati-shimla\nayishah-delhi\nraghu-shimla\nnaseer-kanpur\nkarthikeyan-delhi\nsalma-jaipur\npankaj-delhi\nbrijesh-delhi\ngovind-delhi\npuneet-shimla\nmohindra-delhi\nrajendra-jaipur\npriyanka-shimla\nneelam-delhi")
+print(b)
+f.close

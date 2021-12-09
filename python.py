@@ -1,0 +1,1 @@
+f=open("python.txt","r")
