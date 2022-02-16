@@ -10,5 +10,6 @@
 # f.write("i hope everything is all right")
 # f.close()
 
+# os remove the file
 import os
 os.remove("amrita's file")

@@ -1,14 +1,15 @@
-f=open("pople1.txt","a")
-b=f.write("priyanka-shimla\n"
-"neela-delhi\n"
-"sashi-jaipur\n"
-"sarika-delhi\n"
-"deepti-shimla\n"
-"haeshad-delhi\n"
-"trishna-delhi\n"
-"pradeep-jaipur"
-"sekha-delhi\n"
-"anoop-delhi\n"
-"balwinder-jaipur\n"
-"i am amrita")
+a=["priyanka-shimla","neela-delhi","sashi-jaipur","sarika-delhi","deepti-shimla","haeshad-delhi","trishna-delhi"
+,"pradeep-jaipur","sekha-delhi","anoop-delhi","balwinder-jaipur","i am amrita"]
+f=open("pople1.txt","r+")
+i=0
+while i<len(a):
+    f.write(a[i])
+    f.write("\n")
+    print(a[i])
+    i=i+1
 f.close()
+
+# file=open('pople1.txt')
+# data=file.read()
+# print(data)
+# file.close
